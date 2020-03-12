@@ -8,15 +8,15 @@ var Category = require("../models/category");
 
 router.get('/', passport.authenticate('jwt', { session: false}), function(req, res) {
     var token = getToken(req.headers);
-    if (token) {
-        Category.find(function (err, categories) {
-            if (err) return next(err);
-            res.json(categories);
-        });
-    } else {
-        return res.status(403).send({success: false, msg: 'Unauthorized.'});
-    }
 });
+if (token) {
+    Category.find(function (err, categories) {
+        if (err) return next(err);
+        res.json(categories);
+    });
+} else {
+    return res.status(403).send({success: false, msg: 'Unauthorized.'});
+}
 
 router.get('/:id', passport.authenticate('jwt', { session: false}), function(req, res, next) {
     var token = getToken(req.headers);

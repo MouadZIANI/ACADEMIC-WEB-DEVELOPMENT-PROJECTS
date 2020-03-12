@@ -7,7 +7,7 @@ var jwt = require('jsonwebtoken');
 var router = express.Router();
 var User = require("../models/user");
 
-router.post('/login', function(req, res) {
+router.post('/register', function(req, res) {
     if (!req.body.username || !req.body.password) {
         res.json({success: false, msg: 'Please pass username and password.'});
     } else {
@@ -25,7 +25,7 @@ router.post('/login', function(req, res) {
     }
 });
 
-router.post('/register', function(req, res) {
+router.post('/login', function(req, res) {
     User.findOne({
         username: req.body.username
     }, function(err, user) {
