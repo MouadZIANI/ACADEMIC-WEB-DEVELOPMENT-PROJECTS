@@ -13,8 +13,8 @@ My academic projects that I created while learning web development as Master ISI
 #### Backend
 | Done ?| Project | Description |
 |----|----|----------------|
-| :heavy_check_mark: | <a href="/tree/master/Backend/MEAN-STACK-BlogCMS" target="_blank">BlogMVC</a> | A Blog Manager like CMS - based on MEAN STACK |
-| :heavy_check_mark: | <a href="/tree/master/Backend/BackPack-Laravel-PizzaBox" target="_blank">PizzaBox</a> | Pizza Shop Manager - Based on Laravel/BackPack |
+| :heavy_check_mark: | <a href="https://github.com/MouadZIANI/ACADEMIC-WEB-DEVELOPMENT-PROJECTS/tree/master/Backend/MEAN-STACK-BlogCMS" target="_blank">BlogMVC</a> | A Blog Manager like CMS - based on MEAN STACK |
+| :heavy_check_mark: | <a href="https://github.com/MouadZIANI/ACADEMIC-WEB-DEVELOPMENT-PROJECTS/tree/master/Backend/BackPack-Laravel-PizzaBox" target="_blank">PizzaBox</a> | Pizza Shop Manager - Based on Laravel/BackPack |
 
 #### Front area
 Coming Soon....
